@@ -1,0 +1,29 @@
+INFO 2022-10-04 00:29:21,765 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 00:30:06,470 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 00:30:07,849 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 00:31:32,703 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 00:31:33,760 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:05:09,909 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 01:05:11,390 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:05:28,574 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 01:05:29,785 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:05:55,693 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:12:10,128 autoreload 203 E:\mst-shop-seo\venv\Lib\site-packages\django\db\backends\mysql\base.py changed, reloading.
+INFO 2022-10-04 01:12:11,721 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:13:07,934 autoreload 203 E:\mst-shop-seo\venv\Lib\site-packages\django\db\backends\mysql\operations.py changed, reloading.
+INFO 2022-10-04 01:13:09,154 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:13:22,576 autoreload 203 E:\mst-shop-seo\venv\Lib\site-packages\django\db\backends\mysql\operations.py changed, reloading.
+INFO 2022-10-04 01:13:23,798 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:13:28,690 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2022-10-04 01:13:28,735 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-10-04 01:13:28,840 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-04 01:13:28,840 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-04 01:13:28,845 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2022-10-04 01:13:28,934 log 228 Not Found: /favicon.ico
+WARNING 2022-10-04 01:13:28,935 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1969
+INFO 2022-10-04 01:22:27,750 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 01:22:29,762 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:23:38,649 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 01:23:40,726 basehttp 154 "GET / HTTP/1.1" 200 16286
+WARNING 2022-10-04 01:23:44,583 log 228 Not Found: /user
+WARNING 2022-10-04 01:23:44,585 basehttp 154 "GET /user HTTP/1.1" 404 1948
