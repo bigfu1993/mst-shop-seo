@@ -28,7 +28,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="6b447389-d453-4d92-9188-4fce2e7373cf">
+    <connection id="63720888-fd73-4d94-815b-ac1be87d05a9">
       <console name="mst" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
@@ -36,7 +36,7 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="6b447389-d453-4d92-9188-4fce2e7373cf" />
+    <connection id="63720888-fd73-4d94-815b-ac1be87d05a9" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -67,9 +67,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="6b447389-d453-4d92-9188-4fce2e7373cf" active="true" signed="true">
+      <connection id="63720888-fd73-4d94-815b-ac1be87d05a9" active="true" signed="true">
         <database>
-          <name value="mst-shop" />
+          <name value="mst" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
