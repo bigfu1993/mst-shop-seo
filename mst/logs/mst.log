@@ -72,3 +72,50 @@ INFO 2022-10-07 02:53:14,086 basehttp 154 "GET /static/admin/fonts/Roboto-Regula
 INFO 2022-10-07 02:53:14,087 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
 WARNING 2022-10-07 02:53:14,113 log 228 Not Found: /favicon.ico
 WARNING 2022-10-07 02:53:14,113 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1969
+WARNING 2022-10-07 02:53:51,168 log 228 Not Found: /static
+WARNING 2022-10-07 02:53:51,169 basehttp 154 "GET /static HTTP/1.1" 404 1954
+WARNING 2022-10-07 02:54:06,929 basehttp 154 "GET /static/imagse/adv01.jpg HTTP/1.1" 404 1672
+WARNING 2022-10-07 02:54:42,268 basehttp 154 "GET /static/imagse/adv01.jpg HTTP/1.1" 404 1672
+INFO 2022-10-07 02:54:47,885 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 22312
+INFO 2022-10-07 03:13:56,354 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2022-10-07 03:13:56,380 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-10-07 03:13:56,483 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-07 03:13:56,483 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-07 03:13:56,484 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2022-10-07 03:14:03,756 log 228 Not Found: /user
+WARNING 2022-10-07 03:14:03,757 basehttp 154 "GET /user HTTP/1.1" 404 1948
+INFO 2022-10-07 03:14:08,809 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2022-10-07 03:14:08,824 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-10-07 03:14:08,952 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2022-10-07 03:14:08,985 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2022-10-07 03:14:08,985 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2022-10-07 03:14:08,986 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+WARNING 2022-10-07 03:14:13,175 log 228 Not Found: /user
+WARNING 2022-10-07 03:14:13,176 basehttp 154 "GET /user HTTP/1.1" 404 1948
+WARNING 2022-10-07 03:14:21,297 log 228 Not Found: /user
+WARNING 2022-10-07 03:14:21,298 basehttp 154 "GET /user HTTP/1.1" 404 1948
+INFO 2022-10-07 04:02:12,338 autoreload 203 C:\Users\bigfu\Desktop\mst-shop-seo\mst\mst\urls.py changed, reloading.
+INFO 2022-10-07 04:02:13,560 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:03:44,580 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:04:00,615 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:09:36,177 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:10:26,442 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:11:53,691 autoreload 578 Watching for file changes with StatReloader
+WARNING 2022-10-07 04:11:57,944 log 228 Not Found: /user
+WARNING 2022-10-07 04:11:57,945 basehttp 154 "GET /user HTTP/1.1" 404 2124
+WARNING 2022-10-07 04:12:09,012 log 228 Not Found: /register
+WARNING 2022-10-07 04:12:09,013 basehttp 154 "GET /register HTTP/1.1" 404 2136
+WARNING 2022-10-07 04:12:19,260 log 228 Not Found: /register
+WARNING 2022-10-07 04:12:19,261 basehttp 154 "GET /register HTTP/1.1" 404 2136
+INFO 2022-10-07 04:12:34,544 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:12:36,191 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-07 04:12:36,208 basehttp 154 "GET /register/ HTTP/1.1" 200 123
+INFO 2022-10-07 04:12:38,242 basehttp 154 "GET /register/ HTTP/1.1" 200 123
+INFO 2022-10-07 04:12:47,763 basehttp 154 "GET /register/ HTTP/1.1" 200 126
+INFO 2022-10-07 04:13:22,620 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-07 04:13:24,318 basehttp 154 "GET /register/ HTTP/1.1" 200 126
+INFO 2022-10-07 04:16:09,469 basehttp 154 "GET /register/ HTTP/1.1" 200 2984
+WARNING 2022-10-07 04:16:09,500 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 404 1663
+WARNING 2022-10-07 04:16:09,501 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
+WARNING 2022-10-07 04:16:09,518 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1681
+WARNING 2022-10-07 04:16:09,518 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
