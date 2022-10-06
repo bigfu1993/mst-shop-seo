@@ -27,3 +27,35 @@ INFO 2022-10-04 01:23:38,649 autoreload 578 Watching for file changes with StatR
 INFO 2022-10-04 01:23:40,726 basehttp 154 "GET / HTTP/1.1" 200 16286
 WARNING 2022-10-04 01:23:44,583 log 228 Not Found: /user
 WARNING 2022-10-04 01:23:44,585 basehttp 154 "GET /user HTTP/1.1" 404 1948
+INFO 2022-10-04 22:11:44,781 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:11:46,600 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2022-10-04 22:11:46,648 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-10-04 22:11:46,815 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-04 22:11:46,820 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-10-04 22:11:46,859 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2022-10-04 22:11:46,961 log 228 Not Found: /favicon.ico
+WARNING 2022-10-04 22:11:46,968 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1969
+WARNING 2022-10-04 22:11:57,038 log 228 Not Found: /book
+WARNING 2022-10-04 22:11:57,040 basehttp 154 "GET /book HTTP/1.1" 404 1948
+INFO 2022-10-04 22:12:30,113 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:12:31,792 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:13:02,511 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:13:04,103 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:13:06,968 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:13:53,519 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:14:30,585 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:14:31,713 autoreload 578 Watching for file changes with StatReloader
+WARNING 2022-10-04 22:14:34,606 log 228 Not Found: /book
+WARNING 2022-10-04 22:14:34,611 basehttp 154 "GET /book HTTP/1.1" 404 1948
+WARNING 2022-10-04 22:14:35,441 log 228 Not Found: /book
+WARNING 2022-10-04 22:14:35,442 basehttp 154 "GET /book HTTP/1.1" 404 1948
+INFO 2022-10-04 22:14:41,166 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:14:42,540 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:15:00,032 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:15:07,833 autoreload 578 Watching for file changes with StatReloader
+WARNING 2022-10-04 22:15:10,890 log 228 Not Found: /book
+WARNING 2022-10-04 22:15:10,906 basehttp 154 "GET /book HTTP/1.1" 404 1948
+INFO 2022-10-04 22:15:29,927 autoreload 203 E:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-04 22:15:31,069 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-04 22:17:36,282 autoreload 203 E:\mst-shop-seo\mst\mst\urls.py changed, reloading.
+INFO 2022-10-04 22:17:37,768 autoreload 578 Watching for file changes with StatReloader
