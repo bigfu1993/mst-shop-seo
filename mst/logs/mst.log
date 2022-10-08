@@ -119,3 +119,29 @@ WARNING 2022-10-07 04:16:09,500 basehttp 154 "GET /static/css/reset.css HTTP/1.1
 WARNING 2022-10-07 04:16:09,501 basehttp 154 "GET /static/css/main.css HTTP/1.1" 404 1660
 WARNING 2022-10-07 04:16:09,518 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1681
 WARNING 2022-10-07 04:16:09,518 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2022-10-08 09:40:08,494 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 09:40:30,876 autoreload 203 D:\mst-shop-seo\venv\Lib\site-packages\django\db\backends\mysql\operations.py changed, reloading.
+INFO 2022-10-08 09:40:31,666 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-08 09:40:33,786 basehttp 154 "GET / HTTP/1.1" 500 59
+ERROR 2022-10-08 09:40:33,836 basehttp 154 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2022-10-08 09:40:43,517 basehttp 154 "GET /register HTTP/1.1" 500 59
+ERROR 2022-10-08 09:40:43,547 basehttp 154 "GET /favicon.ico HTTP/1.1" 500 59
+ERROR 2022-10-08 09:40:49,071 basehttp 154 "GET / HTTP/1.1" 500 59
+ERROR 2022-10-08 09:40:49,108 basehttp 154 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2022-10-08 09:41:35,290 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-08 09:41:37,976 basehttp 154 "GET / HTTP/1.1" 500 59
+ERROR 2022-10-08 09:41:38,029 basehttp 154 "GET /favicon.ico HTTP/1.1" 500 59
+WARNING 2022-10-08 09:42:33,335 log 228 Not Found: /
+WARNING 2022-10-08 09:42:33,335 basehttp 154 "GET / HTTP/1.1" 404 2094
+WARNING 2022-10-08 09:42:33,401 log 228 Not Found: /favicon.ico
+WARNING 2022-10-08 09:42:33,402 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2145
+INFO 2022-10-08 09:42:38,226 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-08 09:42:38,344 basehttp 154 "GET /register/ HTTP/1.1" 200 2984
+INFO 2022-10-08 09:42:38,451 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2022-10-08 09:42:38,452 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41733
+INFO 2022-10-08 09:42:38,453 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-08 09:42:38,453 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-08 09:42:38,460 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-08 09:42:38,461 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-08 09:42:38,461 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-10-08 09:43:09,455 autoreload 578 Watching for file changes with StatReloader
