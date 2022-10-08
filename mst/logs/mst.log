@@ -159,3 +159,75 @@ INFO 2022-10-08 10:26:20,557 autoreload 203 D:\mst-shop-seo\mst\mst\urls.py chan
 INFO 2022-10-08 10:26:21,256 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-08 10:26:32,632 basehttp 154 "GET / HTTP/1.1" 200 144
 INFO 2022-10-08 10:26:41,740 basehttp 154 "GET / HTTP/1.1" 200 147
+INFO 2022-10-08 11:14:38,266 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-08 11:14:40,991 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:21:08,134 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:21:10,585 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:24:24,971 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:24:25,700 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:25:10,418 basehttp 154 "GET / HTTP/1.1" 200 38975
+INFO 2022-10-08 17:25:10,479 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-08 17:25:10,488 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-08 17:25:10,495 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-08 17:25:10,500 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41733
+INFO 2022-10-08 17:25:10,516 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-08 17:25:10,516 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-08 17:25:10,529 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-10-08 17:25:10,535 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+WARNING 2022-10-08 17:25:10,539 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-08 17:25:10,541 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-08 17:25:10,543 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-08 17:25:10,565 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-08 17:25:10,570 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-08 17:25:10,570 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-08 17:25:10,576 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-08 17:25:10,586 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-08 17:25:10,594 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-08 17:25:10,597 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-08 17:25:10,601 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-08 17:25:10,605 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-08 17:25:10,605 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-08 17:25:10,611 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-08 17:25:10,623 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-08 17:25:10,632 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-08 17:25:10,639 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-10-08 17:25:17,578 basehttp 154 "GET /register/ HTTP/1.1" 200 3683
+INFO 2022-10-08 17:25:17,610 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2974
+INFO 2022-10-08 17:25:17,613 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2022-10-08 17:25:17,638 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-08 17:25:17,644 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-08 17:25:17,649 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-10-08 17:26:55,612 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:26:56,326 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:28:29,679 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:28:30,578 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:29:53,513 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:29:54,225 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:30:28,495 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:30:29,208 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:34:45,862 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-08 17:34:46,665 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:38:06,666 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:39:23,273 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-08 17:39:27,967 basehttp 154 "GET / HTTP/1.1" 200 38975
+WARNING 2022-10-08 17:39:28,051 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-08 17:39:33,431 basehttp 154 "GET /register/ HTTP/1.1" 200 3683
+INFO 2022-10-08 17:40:29,709 basehttp 154 "GET /register/ HTTP/1.1" 200 3683
+INFO 2022-10-08 17:40:34,264 basehttp 154 "GET /register/ HTTP/1.1" 200 3683
+INFO 2022-10-08 17:40:34,308 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-08 17:40:34,310 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41733
+INFO 2022-10-08 17:40:34,310 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-08 17:40:34,313 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-08 17:40:34,345 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-08 17:40:34,347 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2974
+INFO 2022-10-08 17:40:34,353 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2022-10-08 17:40:34,362 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-08 17:40:34,362 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-08 17:40:34,363 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-10-08 17:40:34,404 log 228 Not Found: /favicon.ico
+WARNING 2022-10-08 17:40:34,405 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2022-10-08 17:40:47,886 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-08 17:40:47,910 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-08 17:40:47,949 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-08 17:40:49,976 log 228 Not Found: /favicon.ico
+WARNING 2022-10-08 17:40:49,977 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
