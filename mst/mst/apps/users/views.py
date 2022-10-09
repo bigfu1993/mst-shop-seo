@@ -7,8 +7,8 @@ from django.urls import reverse
 import re
 
 from mst.utils.response_code import RETCODE
-from users.models import User
-# from .models import User
+# from users.models import User
+from .models import User
 
 class UsernameCountView(View):
     """判断用户名是否重复注册"""
@@ -62,10 +62,13 @@ class RegisterView(View):
             return http.HttpResponseForbidden('请勾选用户协议')
 
         # 保存注册数据：是注册业务的核心
-        # return render(request, 'register.html', {'register_errmsg': '注册失败'})
+
+        print(f'username:{username},password:{password},mobile:{mobile},')
+
         try:
             user = User.objects.create_user(username=username, password=password, mobile=mobile)
-        except DatabaseError:
+        except DatabaseError as e:
+            print(f'create_user error:{e}')
             return render(request, 'register.html', {'register_errmsg':'注册失败'})
 
         # 实现状态保持
