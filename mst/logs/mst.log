@@ -1878,3 +1878,53 @@ Traceback (most recent call last):
 ImportError: Module "users.utils" does not define a "UsernameMobileBackend" attribute/class
 ERROR 2022-10-10 17:45:24,582 basehttp 154 "POST /login/ HTTP/1.1" 500 119637
 INFO 2022-10-10 17:47:06,022 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:47:09,496 basehttp 154 "POST /login/ HTTP/1.1" 200 3148
+INFO 2022-10-10 17:47:09,563 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:47:09,564 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:47:09,566 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:47:09,566 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:47:09,567 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1579
+INFO 2022-10-10 17:47:09,569 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:47:09,602 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:47:09,603 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 17:47:09,606 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:47:12,357 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-10 17:47:12,379 basehttp 154 "GET / HTTP/1.1" 200 38975
+INFO 2022-10-10 17:47:12,413 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-10 17:47:12,414 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-10 17:47:12,445 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+WARNING 2022-10-10 17:47:12,447 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-10 17:47:12,467 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-10 17:47:12,467 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-10 17:47:12,468 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-10 17:47:12,470 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-10 17:47:12,471 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-10 17:47:12,471 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-10 17:47:12,473 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-10 17:47:12,489 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-10 17:47:12,490 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-10 17:47:12,493 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-10 17:47:12,493 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+WARNING 2022-10-10 17:47:12,493 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:47:12,495 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-10 17:47:12,499 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-10 17:47:12,515 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-10 17:47:12,517 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-10 17:47:12,517 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2022-10-10 17:51:57,818 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-10-10 17:51:57,819 basehttp 154 "POST /login/ HTTP/1.1" 403 2508
+WARNING 2022-10-10 17:51:59,569 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-10-10 17:51:59,570 basehttp 154 "POST /login/ HTTP/1.1" 403 2508
+INFO 2022-10-10 17:52:05,162 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2022-10-10 17:52:05,169 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:52:05,194 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-10-10 17:52:05,224 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2022-10-10 17:52:05,244 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:52:09,434 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-10 17:52:09,443 basehttp 154 "GET / HTTP/1.1" 200 38975
+WARNING 2022-10-10 17:52:09,511 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2022-10-10 17:52:09,529 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:52:15,466 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 17:52:15,535 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:54:35,697 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-10 17:54:36,809 autoreload 578 Watching for file changes with StatReloader

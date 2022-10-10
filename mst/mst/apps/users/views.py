@@ -132,3 +132,18 @@ class LoginView(View):
 
         # 响应登录结果
         return redirect(reverse('contents:index'))
+
+
+class LogoutView(View):
+    """退出登录"""
+
+    def get(self, request):
+        """实现退出登录逻辑"""
+        # 清理session
+        logout(request)
+        # 退出登录，重定向到登录页
+        response = redirect(reverse('contents:index'))
+        # 退出登录时清除cookie中的username
+        response.delete_cookie('username')
+
+        return response
