@@ -181,6 +181,9 @@ logger.error('测试logging模块error')
 
 AUTH_USER_MODEL = 'users.User'
 
+# 指定自定义用户认证后端
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileBackend']
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',

@@ -1556,3 +1556,325 @@ INFO 2022-10-10 15:00:07,132 autoreload 578 Watching for file changes with StatR
 INFO 2022-10-10 15:01:03,596 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-10 15:07:53,807 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-10 15:10:16,575 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 16:46:02,421 basehttp 154 "GET / HTTP/1.1" 200 38975
+INFO 2022-10-10 16:46:02,448 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 16:46:02,449 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41733
+INFO 2022-10-10 16:46:02,461 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 16:46:02,463 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 16:46:02,473 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-10 16:46:02,487 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 16:46:02,500 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-10-10 16:46:02,500 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-10 16:46:02,527 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-10 16:46:02,527 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-10 16:46:02,528 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-10 16:46:02,532 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-10 16:46:02,535 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-10 16:46:02,546 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-10 16:46:02,547 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-10 16:46:02,558 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-10 16:46:02,563 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-10 16:46:02,566 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-10 16:46:02,571 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-10 16:46:02,582 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-10 16:46:02,584 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-10 16:46:02,593 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-10 16:46:02,603 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-10 16:46:02,609 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2022-10-10 16:46:04,151 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-10 16:46:07,267 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-10 16:46:07,284 basehttp 154 "GET /register/ HTTP/1.1" 200 3867
+INFO 2022-10-10 16:46:07,304 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7162
+INFO 2022-10-10 16:46:07,796 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 16:46:07,798 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-10 16:46:07,798 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-10-10 16:46:07,842 basehttp 154 "GET /image_codes/06144905-2a7d-4474-82da-5a4b56bcb42c/ HTTP/1.1" 200 3000
+WARNING 2022-10-10 16:46:10,339 log 228 Not Found: /register/login.html
+WARNING 2022-10-10 16:46:10,339 basehttp 154 "GET /register/login.html HTTP/1.1" 404 2724
+INFO 2022-10-10 16:58:38,406 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-10 16:58:39,562 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 16:59:10,727 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-10 16:59:11,913 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:04:50,831 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-10 17:04:52,008 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:05:00,684 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:06:53,572 autoreload 578 Watching for file changes with StatReloader
+WARNING 2022-10-10 17:06:55,932 log 228 Not Found: /register/login.html
+WARNING 2022-10-10 17:06:55,932 basehttp 154 "GET /register/login.html HTTP/1.1" 404 2894
+WARNING 2022-10-10 17:07:11,880 log 228 Not Found: /login.html
+WARNING 2022-10-10 17:07:11,881 basehttp 154 "GET /login.html HTTP/1.1" 404 2867
+ERROR 2022-10-10 17:07:18,492 basehttp 154 "GET /login/ HTTP/1.1" 500 59
+INFO 2022-10-10 17:07:51,260 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:07:53,479 basehttp 154 "GET /login/ HTTP/1.1" 200 2919
+WARNING 2022-10-10 17:07:53,554 basehttp 154 "GET /static/js/login.js HTTP/1.1" 404 1657
+INFO 2022-10-10 17:07:53,560 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:07:53,566 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:07:53,571 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-10-10 17:08:22,174 basehttp 154 "GET /login/ HTTP/1.1" 200 2919
+INFO 2022-10-10 17:08:22,223 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+WARNING 2022-10-10 17:13:02,098 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:13:14,667 basehttp 154 "GET /login/ HTTP/1.1" 200 2919
+WARNING 2022-10-10 17:13:14,741 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:13:15,391 basehttp 154 "GET /login/ HTTP/1.1" 200 2919
+WARNING 2022-10-10 17:13:15,463 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:13:16,674 basehttp 154 "GET /login/ HTTP/1.1" 200 2919
+INFO 2022-10-10 17:13:16,697 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:13:16,698 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:13:16,712 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:13:16,716 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:13:16,736 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:13:16,736 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:13:16,751 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:13:16,751 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:13:16,752 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:13:16,759 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:13:16,762 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:13:16,790 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:13:16,791 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:14:03,759 basehttp 154 "GET /login/ HTTP/1.1" 200 2932
+INFO 2022-10-10 17:14:03,793 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:14:03,858 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:15,020 basehttp 154 "GET /login/ HTTP/1.1" 200 2945
+INFO 2022-10-10 17:14:15,050 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:14:15,116 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:15,702 basehttp 154 "GET /login/ HTTP/1.1" 200 2945
+WARNING 2022-10-10 17:14:15,770 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:16,992 basehttp 154 "GET /login/ HTTP/1.1" 200 2945
+INFO 2022-10-10 17:14:17,015 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:14:17,015 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:14:17,030 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:14:17,032 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:14:17,047 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:14:17,048 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:14:17,065 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:14:17,068 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 17:14:17,069 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:17,069 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:14:17,072 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:14:17,095 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:14:17,096 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:14:31,268 basehttp 154 "GET /login/ HTTP/1.1" 200 2945
+INFO 2022-10-10 17:14:31,290 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:14:31,363 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:45,058 basehttp 154 "GET /login/ HTTP/1.1" 200 2959
+INFO 2022-10-10 17:14:45,082 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:14:45,143 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:45,686 basehttp 154 "GET /login/ HTTP/1.1" 200 2959
+WARNING 2022-10-10 17:14:45,753 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:46,938 basehttp 154 "GET /login/ HTTP/1.1" 200 2959
+INFO 2022-10-10 17:14:46,960 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:14:46,962 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:14:46,976 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:14:46,981 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:14:47,004 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:14:47,007 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:14:47,016 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:14:47,017 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 17:14:47,020 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:14:47,020 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:14:47,025 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:14:47,048 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:14:47,049 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:15:02,196 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+INFO 2022-10-10 17:15:02,223 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:15:02,295 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:02,751 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+WARNING 2022-10-10 17:15:02,827 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:03,721 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+INFO 2022-10-10 17:15:03,745 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:15:03,745 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:15:03,752 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:15:03,754 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:15:03,779 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:15:03,779 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:15:03,795 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:15:03,796 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:15:03,798 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-10-10 17:15:03,798 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:03,801 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:15:03,818 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:15:03,819 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:15:26,819 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+INFO 2022-10-10 17:15:26,846 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:15:26,847 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:15:26,855 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:15:26,856 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:15:26,878 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:15:26,879 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:15:26,887 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-10-10 17:15:26,888 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:26,898 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:15:26,898 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-10-10 17:15:26,919 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:15:26,920 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:15:27,814 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+WARNING 2022-10-10 17:15:27,894 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:15:35,708 log 228 Not Found: /login/index.html
+WARNING 2022-10-10 17:15:35,708 basehttp 154 "GET /login/index.html HTTP/1.1" 404 2885
+WARNING 2022-10-10 17:15:46,858 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:46,860 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2022-10-10 17:15:49,925 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+INFO 2022-10-10 17:15:49,948 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:15:49,995 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:51,649 basehttp 154 "GET /login/ HTTP/1.1" 200 2958
+INFO 2022-10-10 17:15:51,673 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:15:51,673 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:15:51,688 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:15:51,690 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:15:51,706 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:15:51,706 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:15:51,722 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2022-10-10 17:15:51,723 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 17:15:51,727 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:15:51,729 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:15:51,730 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:15:51,750 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:15:51,751 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:16:13,213 basehttp 154 "GET /login/ HTTP/1.1" 200 2960
+INFO 2022-10-10 17:16:13,240 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:16:13,303 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:13,789 basehttp 154 "GET /login/ HTTP/1.1" 200 2960
+WARNING 2022-10-10 17:16:13,864 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:14,701 basehttp 154 "GET /login/ HTTP/1.1" 200 2960
+INFO 2022-10-10 17:16:14,723 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:16:14,724 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:16:14,733 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:16:14,735 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:16:14,752 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:16:14,752 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2022-10-10 17:16:14,769 basehttp 154 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+WARNING 2022-10-10 17:16:14,772 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:14,772 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:16:14,774 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:16:14,777 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2022-10-10 17:16:14,803 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:16:14,804 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:16:25,861 basehttp 154 "GET /login/ HTTP/1.1" 200 2954
+WARNING 2022-10-10 17:16:25,950 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:26,653 basehttp 154 "GET /login/ HTTP/1.1" 200 2954
+WARNING 2022-10-10 17:16:26,715 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:52,564 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:16:52,584 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:16:52,647 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:53,606 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 17:16:53,664 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:16:57,711 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 17:16:57,795 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:27:57,446 log 228 Not Found: /login/register.html
+WARNING 2022-10-10 17:27:57,446 basehttp 154 "GET /login/register.html HTTP/1.1" 404 2894
+WARNING 2022-10-10 17:28:06,173 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:28:28,725 basehttp 154 "GET /login/ HTTP/1.1" 200 3034
+INFO 2022-10-10 17:28:28,749 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:28:28,811 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:28:30,374 log 228 Not Found: /register.html
+WARNING 2022-10-10 17:28:30,374 basehttp 154 "GET /register.html HTTP/1.1" 404 2876
+WARNING 2022-10-10 17:28:35,254 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:28:44,812 basehttp 154 "GET /login/ HTTP/1.1" 200 3029
+WARNING 2022-10-10 17:28:44,885 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:28:46,147 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-10 17:28:46,159 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+INFO 2022-10-10 17:28:46,186 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-10 17:28:46,203 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7162
+INFO 2022-10-10 17:28:46,214 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-10 17:28:46,218 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2022-10-10 17:28:46,223 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:28:46,267 basehttp 154 "GET /image_codes/95ba7cd9-7df9-48a0-8527-c3feff0d1e33/ HTTP/1.1" 200 3157
+WARNING 2022-10-10 17:28:47,436 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:34:46,217 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:34:46,247 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+WARNING 2022-10-10 17:34:46,321 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:34:48,899 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:34:48,920 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:34:48,920 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:34:48,941 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:34:48,942 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:34:48,942 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1573
+INFO 2022-10-10 17:34:48,944 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:34:48,972 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 17:34:48,972 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-10-10 17:34:48,989 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:34:48,998 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:34:48,998 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:34:52,689 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-10 17:34:52,712 basehttp 154 "GET / HTTP/1.1" 200 38975
+INFO 2022-10-10 17:34:52,762 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-10 17:34:52,776 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+WARNING 2022-10-10 17:34:52,777 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-10 17:34:52,800 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-10 17:34:52,800 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-10 17:34:52,803 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-10 17:34:52,811 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-10 17:34:52,813 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-10 17:34:52,814 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-10 17:34:52,814 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+WARNING 2022-10-10 17:34:52,817 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:34:52,818 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-10 17:34:52,819 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-10 17:34:52,825 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-10 17:34:52,825 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-10 17:34:52,825 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-10 17:34:52,834 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-10 17:34:52,835 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-10 17:34:52,843 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-10 17:34:52,850 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-10 17:34:52,850 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-10-10 17:35:18,674 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 17:35:18,743 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:35:20,769 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:35:20,794 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 17:35:20,795 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 17:35:20,811 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1574
+INFO 2022-10-10 17:35:20,811 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 17:35:20,812 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 17:35:20,815 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 17:35:20,850 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 17:35:20,850 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 17:35:20,857 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 17:35:20,875 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:35:20,876 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:35:23,173 basehttp 154 "POST /login/ HTTP/1.1" 200 3148
+INFO 2022-10-10 17:35:23,222 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2022-10-10 17:35:23,263 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:40:14,788 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-10 17:40:17,406 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-10 17:42:54,830 basehttp 154 "POST /login/ HTTP/1.1" 500 59
+WARNING 2022-10-10 17:42:54,873 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 17:42:54,874 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2870
+INFO 2022-10-10 17:43:15,147 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-10 17:43:18,021 basehttp 154 "POST /login/ HTTP/1.1" 500 59
+INFO 2022-10-10 17:44:59,520 autoreload 203 D:\mst-shop-seo\venv\Lib\site-packages\django\views\debug.py changed, reloading.
+INFO 2022-10-10 17:45:02,361 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:45:17,371 autoreload 203 D:\mst-shop-seo\venv\Lib\site-packages\django\views\debug.py changed, reloading.
+INFO 2022-10-10 17:45:21,261 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-10 17:45:24,573 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\utils\module_loading.py", line 20, in import_string
+    return getattr(module, class_name)
+AttributeError: module 'users.utils' has no attribute 'UsernameMobileBackend'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 119, in post
+    user = authenticate(username=username, password=password)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\__init__.py", line 66, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\utils\module_loading.py", line 24, in import_string
+    ) from err
+ImportError: Module "users.utils" does not define a "UsernameMobileBackend" attribute/class
+ERROR 2022-10-10 17:45:24,582 basehttp 154 "POST /login/ HTTP/1.1" 500 119637
+INFO 2022-10-10 17:47:06,022 autoreload 578 Watching for file changes with StatReloader
