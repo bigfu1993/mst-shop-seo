@@ -1547,3 +1547,12 @@ INFO 2022-10-10 14:09:24,108 basehttp 154 "GET /image_codes/6136d11d-40e8-4563-a
 INFO 2022-10-10 14:09:24,872 basehttp 154 "GET /image_codes/6136d11d-40e8-4563-ac81-fbea2c4ae9f2/ HTTP/1.1" 200 3284
 INFO 2022-10-10 14:09:25,029 autoreload 203 D:\mst-shop-seo\mst\mst\apps\verifications\views.py changed, reloading.
 INFO 2022-10-10 14:09:26,125 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 14:09:26,569 basehttp 154 "GET /image_codes/6136d11d-40e8-4563-ac81-fbea2c4ae9f2/ HTTP/1.1" 200 3166
+INFO 2022-10-10 14:09:28,110 basehttp 154 "GET /image_codes/6136d11d-40e8-4563-ac81-fbea2c4ae9f2/ HTTP/1.1" 200 2876
+INFO 2022-10-10 14:09:29,058 basehttp 154 "GET /image_codes/6136d11d-40e8-4563-ac81-fbea2c4ae9f2/ HTTP/1.1" 200 3297
+INFO 2022-10-10 14:59:11,144 autoreload 203 D:\mst-shop-seo\mst\mst\apps\verifications\views.py changed, reloading.
+INFO 2022-10-10 14:59:12,377 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 15:00:07,132 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 15:01:03,596 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 15:07:53,807 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 15:10:16,575 autoreload 578 Watching for file changes with StatReloader

@@ -30,3 +30,4 @@ class ImageCodeView(View):
 
         # 响应图片验证码
         return http.HttpResponse(image, content_type='image/jpg')
+
