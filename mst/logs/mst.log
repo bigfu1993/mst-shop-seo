@@ -1928,3 +1928,185 @@ INFO 2022-10-10 17:52:15,466 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
 WARNING 2022-10-10 17:52:15,535 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
 INFO 2022-10-10 17:54:35,697 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-10 17:54:36,809 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 17:55:05,960 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 17:55:06,006 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2022-10-10 17:55:06,050 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:55:07,157 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-10 17:55:07,174 basehttp 154 "GET / HTTP/1.1" 200 38975
+WARNING 2022-10-10 17:55:07,235 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2022-10-10 17:55:07,269 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:55:12,217 basehttp 154 "GET / HTTP/1.1" 200 38975
+WARNING 2022-10-10 17:55:12,245 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2022-10-10 17:55:12,299 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 17:55:15,136 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 17:55:15,204 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:02:57,418 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 18:02:57,440 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-10-10 18:02:57,442 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2022-10-10 18:02:57,504 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:02:59,506 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+ERROR 2022-10-10 18:03:01,434 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\backends\jinja2.py", line 71, in render
+    return self.template.render(context)
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\mst-shop-seo\mst\mst\templates\index.html", line 23, in top-level template code
+    <a href="{{ url('users:logout') }}" class="quit">退出</a>
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+ERROR 2022-10-10 18:03:01,452 basehttp 154 "GET / HTTP/1.1" 500 140135
+INFO 2022-10-10 18:03:53,447 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-10 18:03:54,643 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-10 18:03:55,393 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\backends\jinja2.py", line 71, in render
+    return self.template.render(context)
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\mst-shop-seo\mst\mst\templates\index.html", line 33, in top-level template code
+    <a href="{{ url('users:info') }}">用户中心</a>
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2022-10-10 18:03:55,415 basehttp 154 "GET / HTTP/1.1" 500 139840
+INFO 2022-10-10 18:03:56,608 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 18:03:56,700 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:03:58,376 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 18:03:58,437 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:03:59,825 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 18:03:59,852 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 18:03:59,852 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 18:03:59,875 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 18:03:59,877 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1579
+INFO 2022-10-10 18:03:59,877 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 18:03:59,879 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 18:03:59,910 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-10 18:03:59,911 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+WARNING 2022-10-10 18:03:59,921 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 18:03:59,941 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 18:03:59,942 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3042
+INFO 2022-10-10 18:04:01,901 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+ERROR 2022-10-10 18:04:02,042 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\backends\jinja2.py", line 71, in render
+    return self.template.render(context)
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\mst-shop-seo\mst\mst\templates\index.html", line 33, in top-level template code
+    <a href="{{ url('users:info') }}">用户中心</a>
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2022-10-10 18:04:02,044 basehttp 154 "GET / HTTP/1.1" 500 139840
+INFO 2022-10-10 18:06:08,521 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 18:06:09,639 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+WARNING 2022-10-10 18:06:09,726 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:06:11,561 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-10 18:06:11,590 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-10 18:06:11,591 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-10 18:06:11,610 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-10 18:06:11,611 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-10 18:06:11,613 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1579
+INFO 2022-10-10 18:06:11,614 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-10 18:06:11,652 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-10 18:06:11,652 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+WARNING 2022-10-10 18:06:11,654 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-10 18:06:11,671 log 228 Not Found: /favicon.ico
+WARNING 2022-10-10 18:06:11,672 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3042
+INFO 2022-10-10 18:06:14,509 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+ERROR 2022-10-10 18:06:14,824 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\contents\views.py", line 9, in get
+    return render(request, 'index.html')
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\template\backends\jinja2.py", line 71, in render
+    return self.template.render(context)
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "D:\mst-shop-seo\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\mst-shop-seo\mst\mst\templates\index.html", line 33, in top-level template code
+    <a href="{{ url('users:info') }}">用户中心</a>
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2022-10-10 18:06:14,846 basehttp 154 "GET / HTTP/1.1" 500 139840
+INFO 2022-10-10 18:07:45,126 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-10 18:07:46,295 autoreload 578 Watching for file changes with StatReloader

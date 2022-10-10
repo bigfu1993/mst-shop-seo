@@ -3,6 +3,7 @@ from django.views import View
 from django import http
 from django.db import DatabaseError
 from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
 import re
 
@@ -133,6 +134,20 @@ class LoginView(View):
         # 响应登录结果
         return redirect(reverse('contents:index'))
 
+
+class UserInfoView(LoginRequiredMixin, View):
+    """用户中心"""
+
+    def get(self,request):
+        """提供用户中心页面"""
+        # 如果LoginRequiredMixin判断出用户已登录，那么request.user就是登陆用户对象
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
+        return render(request, 'user_center_info.html', context)
 
 class LogoutView(View):
     """退出登录"""
