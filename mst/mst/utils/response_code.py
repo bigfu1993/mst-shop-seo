@@ -1,6 +1,4 @@
 # coding:utf-8
-
-
 class RETCODE:
     OK                  = "0"
     IMAGECODEERR        = "4001"

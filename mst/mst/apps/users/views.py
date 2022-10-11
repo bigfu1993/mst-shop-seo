@@ -78,7 +78,14 @@ class RegisterView(View):
         # return http.HttpResponse('注册成功，重定向到首页')
         # return redirect('/')
         # reverse('contents:index') == '/'
-        return redirect(reverse('contents:index'))
+        # return redirect(reverse('contents:index'))
+
+        # 响应注册结果
+        response = redirect(reverse('contents:index'))
+        # 注册时用户名写入到cookie，有效期15天
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+
+        return response
 
 class LoginView(View):
     """用户名登录"""
@@ -130,23 +137,12 @@ class LoginView(View):
             # 记住用户：None表示两周后过期
             request.session.set_expiry(None)
 
-        # 响应登录结果
-        return redirect(reverse('contents:index'))
+        # 响应注册结果
+        response = redirect(reverse('contents:index'))
+        # 注册时用户名写入到cookie，有效期15天
+        response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
+        return response
 
-
-class UserInfoView(LoginRequiredMixin, View):
-    """用户中心"""
-
-    def get(self,request):
-        """提供用户中心页面"""
-        # 如果LoginRequiredMixin判断出用户已登录，那么request.user就是登陆用户对象
-        context = {
-            'username': request.user.username,
-            'mobile': request.user.mobile,
-            'email': request.user.email,
-            'email_active': request.user.email_active
-        }
-        return render(request, 'user_center_info.html', context)
 
 class LogoutView(View):
     """退出登录"""
@@ -161,3 +157,19 @@ class LogoutView(View):
         response.delete_cookie('username')
 
         return response
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    """用户中心"""
+
+    def get(self,request):
+        """提供用户中心页面"""
+        return render(request, 'user_center_info.html')
+        # 如果LoginRequiredMixin判断出用户已登录，那么request.user就是登陆用户对象
+        # context = {
+        #     'username': request.user.username,
+        #     'mobile': request.user.mobile,
+        #     'email': request.user.email,
+        #     'email_active': request.user.email_active
+        # }
+        # return render(request, 'user_center_info.html', context)

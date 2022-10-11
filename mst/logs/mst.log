@@ -2149,3 +2149,138 @@ INFO 2022-10-11 11:18:23,416 autoreload 578 Watching for file changes with StatR
 INFO 2022-10-11 11:24:47,093 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-11 11:27:50,998 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-11 11:27:51,706 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 14:01:40,204 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 14:25:04,026 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-11 14:25:04,143 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,144 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,145 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,147 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,147 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,157 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,167 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,179 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,179 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,179 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,180 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,180 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,180 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,191 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,191 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,193 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,193 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,195 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,201 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,202 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,205 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,205 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:04,206 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 304 0
+WARNING 2022-10-11 14:25:04,206 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-11 14:25:04,208 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 304 0
+WARNING 2022-10-11 14:25:04,243 log 228 Not Found: /favicon.ico
+WARNING 2022-10-11 14:25:04,243 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3210
+INFO 2022-10-11 14:25:19,690 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-11 14:25:19,718 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+INFO 2022-10-11 14:25:19,755 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7162
+INFO 2022-10-11 14:25:20,184 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2022-10-11 14:25:20,184 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-11 14:25:20,189 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-10-11 14:25:20,410 basehttp 154 "GET /image_codes/0d164d36-d825-456d-b5c1-d66b70217c0e/ HTTP/1.1" 200 3028
+INFO 2022-10-11 14:27:49,262 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+INFO 2022-10-11 14:27:49,379 basehttp 154 "GET /image_codes/ad6c14ef-1761-42c3-9823-547f1db8ad80/ HTTP/1.1" 200 3460
+INFO 2022-10-11 14:27:52,115 basehttp 154 "GET /image_codes/f06b4990-fa62-48c8-ae8f-307a09ceab68/ HTTP/1.1" 200 3114
+INFO 2022-10-11 14:27:55,982 basehttp 154 "GET /usernames/bigfu/count/ HTTP/1.1" 200 41
+INFO 2022-10-11 14:27:56,176 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-10-11 14:27:56,183 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 14:27:56,261 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+WARNING 2022-10-11 14:28:27,617 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-11 14:28:27,653 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-11 14:28:27,708 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 14:29:12,913 autoreload 203 D:\mst-shop-seo\mst\mst\utils\response_code.py changed, reloading.
+INFO 2022-10-11 14:29:14,103 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 14:48:57,941 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 14:49:00,642 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 14:58:47,082 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 14:58:47,232 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 14:58:47,238 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2022-10-11 14:58:54,847 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+WARNING 2022-10-11 14:58:54,914 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 14:58:54,977 basehttp 154 "GET /image_codes/e441d1a3-4774-4646-b0d4-064fa1fb3f9c/ HTTP/1.1" 200 2784
+INFO 2022-10-11 15:27:22,681 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 15:27:23,879 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 15:38:36,580 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 15:38:37,765 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 15:38:47,791 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+WARNING 2022-10-11 15:38:47,920 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:38:47,936 basehttp 154 "GET /image_codes/570fb0f5-5a75-4d34-8d29-f97fe9bd102c/ HTTP/1.1" 200 3269
+INFO 2022-10-11 15:38:50,397 basehttp 154 "GET /usernames/bigfu/count/ HTTP/1.1" 200 41
+INFO 2022-10-11 15:38:50,635 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-10-11 15:38:50,655 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 15:38:50,745 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:38:54,729 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 15:38:54,811 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:46:40,077 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-10-11 15:46:40,083 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 15:46:40,173 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:46:49,920 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 15:46:50,014 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-11 15:54:32,538 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:54:33,372 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+WARNING 2022-10-11 15:54:33,455 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:54:33,497 basehttp 154 "GET /image_codes/43f5901f-fe30-4106-b1ec-229531ff64ba/ HTTP/1.1" 200 3139
+WARNING 2022-10-11 15:54:37,286 log 228 Not Found: /register/login.html
+WARNING 2022-10-11 15:54:37,287 basehttp 154 "GET /register/login.html HTTP/1.1" 404 3234
+WARNING 2022-10-11 15:54:44,863 log 228 Not Found: /login.html
+WARNING 2022-10-11 15:54:44,864 basehttp 154 "GET /login.html HTTP/1.1" 404 3207
+INFO 2022-10-11 15:58:15,477 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 15:58:18,121 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 15:59:54,354 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-11 15:59:54,396 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2022-10-11 15:59:54,452 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 304 0
+WARNING 2022-10-11 15:59:54,456 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 15:59:58,897 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-11 15:59:58,917 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 15:59:59,000 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-10-11 16:00:02,021 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 172, in get
+    'email_active': request.user.email_active
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\utils\functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'email_active'
+ERROR 2022-10-11 16:00:02,024 basehttp 154 "GET /info/ HTTP/1.1" 500 106107
+INFO 2022-10-11 16:01:49,087 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 16:01:50,295 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-11 16:01:51,348 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 174, in get
+    return render(request, 'user_center_info.html', context)
+NameError: name 'context' is not defined
+ERROR 2022-10-11 16:01:51,354 basehttp 154 "GET /info/ HTTP/1.1" 500 101902
+INFO 2022-10-11 16:01:57,595 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 16:01:58,721 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 16:02:01,454 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 16:02:02,625 autoreload 578 Watching for file changes with StatReloader
