@@ -3,6 +3,7 @@
 # import ssl
 # ssl._create_default_https_context =ssl._create_stdlib_context # 解决Mac开发环境下，网络错误的问题
 
+# from verifications.libs.yuntongxun.CCPRestSDK import REST
 from verifications.libs.yuntongxun.CCPRestSDK import REST
 
 # 说明：主账号，登陆云通讯网站后，可在"控制台-应用"中看到开发者主账号ACCOUNT SID
@@ -80,4 +81,4 @@ if __name__ == '__main__':
     # sendTemplateSMS('17600992168', ['123456', 5], 1)
 
     # 单例类发送短信验证码
-    CCP().send_template_sms('17600992168', ['123456', 5], 1)
+    CCP().send_template_sms('18036398161', ['123456', 5], 1)

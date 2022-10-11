@@ -2110,3 +2110,42 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is n
 ERROR 2022-10-10 18:06:14,846 basehttp 154 "GET / HTTP/1.1" 500 139840
 INFO 2022-10-10 18:07:45,126 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
 INFO 2022-10-10 18:07:46,295 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-10 18:07:52,428 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-10 18:07:52,527 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-10 18:07:52,562 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-10 18:07:52,562 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-10 18:07:52,567 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-10 18:07:52,568 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-10 18:07:52,572 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-10 18:07:52,585 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-10 18:07:52,589 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-10 18:07:52,589 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+WARNING 2022-10-10 18:07:52,614 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-10 18:07:52,616 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-10 18:07:52,624 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-10 18:07:52,631 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-10 18:07:52,639 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+WARNING 2022-10-10 18:07:52,640 basehttp 154 "GET /static/js/index.js HTTP/1.1" 404 1657
+INFO 2022-10-10 18:07:52,641 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-10 18:07:52,643 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-10 18:07:52,645 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-10 18:07:52,647 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-10 18:07:52,650 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-10-10 18:07:52,650 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-11 10:34:49,248 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 10:44:52,786 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 10:45:48,716 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 10:45:49,425 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 10:58:26,620 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 10:58:29,266 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 10:59:29,241 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 10:59:30,031 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 11:15:17,746 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 11:15:37,324 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 11:15:37,396 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 11:15:38,538 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 11:18:20,671 autoreload 203 D:\mst-shop-seo\mst\mst\settings\dev.py changed, reloading.
+INFO 2022-10-11 11:18:23,416 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 11:24:47,093 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 11:27:50,998 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 11:27:51,706 autoreload 578 Watching for file changes with StatReloader

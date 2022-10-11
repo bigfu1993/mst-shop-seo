@@ -8,8 +8,7 @@ from django.urls import reverse
 import re
 
 from mst.utils.response_code import RETCODE
-# from users.models import User
-from .models import User
+from users.models import User
 
 class UsernameCountView(View):
     """判断用户名是否重复注册"""
