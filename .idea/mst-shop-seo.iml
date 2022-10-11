@@ -9,7 +9,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (mst-shop-seo)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="阶段4-web开发" />
+    <orderEntry type="module" module-name="6-美多商城前台" />
   </component>
   <component name="PyNamespacePackagesService">
     <option name="namespacePackageFolders">

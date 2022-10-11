@@ -2284,3 +2284,150 @@ INFO 2022-10-11 16:01:57,595 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\v
 INFO 2022-10-11 16:01:58,721 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-11 16:02:01,454 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-11 16:02:02,625 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 16:02:03,206 basehttp 154 "GET /info/ HTTP/1.1" 200 7581
+INFO 2022-10-11 16:02:03,304 basehttp 154 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2022-10-11 16:02:03,312 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+WARNING 2022-10-11 16:02:03,314 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 16:02:03,321 basehttp 154 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+WARNING 2022-10-11 16:02:03,342 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 404 1690
+INFO 2022-10-11 17:02:46,952 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:02:48,219 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-11 17:02:50,863 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 167, in get
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2022-10-11 17:02:50,873 basehttp 154 "GET /info/ HTTP/1.1" 500 102825
+WARNING 2022-10-11 17:02:51,021 log 228 Not Found: /favicon.ico
+WARNING 2022-10-11 17:02:51,022 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3210
+ERROR 2022-10-11 17:03:20,104 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 167, in get
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2022-10-11 17:03:20,106 basehttp 154 "GET /info/ HTTP/1.1" 500 102825
+INFO 2022-10-11 17:03:31,708 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-11 17:03:31,739 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-11 17:03:31,757 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-11 17:03:31,800 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-11 17:03:31,809 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-11 17:03:31,824 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-11 17:03:31,856 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-11 17:03:31,859 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-11 17:03:31,862 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-11 17:03:31,872 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-11 17:03:31,879 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+WARNING 2022-10-11 17:03:31,882 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 17:03:31,892 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-11 17:03:31,899 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2022-10-11 17:03:31,899 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-11 17:03:31,906 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-11 17:03:31,911 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-10-11 17:03:31,916 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-11 17:03:31,921 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-11 17:03:31,925 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-11 17:03:31,931 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-11 17:03:31,935 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-11 17:03:31,935 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-11 17:03:31,941 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-11 17:03:31,953 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-11 17:03:31,963 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-11 17:03:31,969 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-10-11 17:03:33,521 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 17:03:33,622 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+ERROR 2022-10-11 17:03:36,004 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 167, in get
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2022-10-11 17:03:36,005 basehttp 154 "GET /info/ HTTP/1.1" 500 102690
+INFO 2022-10-11 17:05:19,773 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:05:21,996 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 17:05:26,965 basehttp 154 "GET /info/ HTTP/1.1" 200 7581
+WARNING 2022-10-11 17:05:27,116 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 404 1690
+INFO 2022-10-11 17:05:27,119 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2022-10-11 17:05:27,117 basehttp 154 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2022-10-11 17:05:27,128 basehttp 154 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+WARNING 2022-10-11 17:05:27,132 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 17:10:16,752 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:10:17,848 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 17:12:42,376 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:12:43,509 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 17:12:55,564 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:12:56,727 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-11 17:13:03,022 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 167, in get
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+ERROR 2022-10-11 17:13:03,030 basehttp 154 "GET /info/ HTTP/1.1" 500 102834
+INFO 2022-10-11 17:14:19,659 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 17:14:20,954 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 17:14:21,403 basehttp 154 "GET /info/ HTTP/1.1" 200 7581
+WARNING 2022-10-11 17:14:21,478 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-11 17:14:21,507 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 404 1690
+INFO 2022-10-11 17:14:25,105 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 17:14:25,179 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 17:14:26,567 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-10-11 17:14:26,574 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-11 17:14:26,653 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 17:14:28,533 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2022-10-11 17:14:28,547 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3033
+INFO 2022-10-11 17:14:28,593 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1579
+WARNING 2022-10-11 17:14:28,601 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-11 17:14:28,612 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-11 17:14:28,623 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-11 18:05:54,662 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 18:05:55,887 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 18:05:57,478 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 18:05:58,707 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-11 18:06:40,797 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-11 18:06:41,943 autoreload 578 Watching for file changes with StatReloader

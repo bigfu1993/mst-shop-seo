@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/阶段4-web开发/代码以及其他/6-美多商城前台/.idea/6-美多商城前台.iml" filepath="$USER_HOME$/Desktop/阶段4-web开发/代码以及其他/6-美多商城前台/.idea/6-美多商城前台.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mst-shop-seo.iml" filepath="$PROJECT_DIR$/.idea/mst-shop-seo.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/阶段4-web开发/.idea/阶段4-web开发.iml" filepath="$USER_HOME$/Desktop/阶段4-web开发/.idea/阶段4-web开发.iml" />
     </modules>
   </component>
 </project>

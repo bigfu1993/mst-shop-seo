@@ -137,9 +137,17 @@ class LoginView(View):
             # 记住用户：None表示两周后过期
             request.session.set_expiry(None)
 
-        # 响应注册结果
-        response = redirect(reverse('contents:index'))
+        # 先取出next
+        next = request.GET.get('next')
+        if next:
+            # 重定向到next
+            response = redirect(next)
+        else:
+            # 重定向到首页
+            response = redirect(reverse('contents:index'))
+
         # 注册时用户名写入到cookie，有效期15天
+        # response.set_cookie('key', 'val', 'expiry')
         response.set_cookie('username', user.username, max_age=3600 * 24 * 15)
         return response
 
@@ -164,7 +172,11 @@ class UserInfoView(LoginRequiredMixin, View):
 
     def get(self,request):
         """提供用户中心页面"""
-        return render(request, 'user_center_info.html')
+        if request.user.is_authenticated:
+            return render(request, 'user_center_info.html')
+        else:
+            return redirect(reverse('users:login'))
+        # return render(request, 'user_center_info.html')
         # 如果LoginRequiredMixin判断出用户已登录，那么request.user就是登陆用户对象
         # context = {
         #     'username': request.user.username,
