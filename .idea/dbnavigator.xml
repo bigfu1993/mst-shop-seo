@@ -42,6 +42,7 @@
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.django_session" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_users_groups" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_oauth_qq" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />

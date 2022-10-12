@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'contents',
-    'verifications'
+    'verifications',
+    'oauth'
 ]
 
 MIDDLEWARE = [
@@ -224,3 +225,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+# QQ登录的配置参数
+QQ_CLIENT_ID = '102024253'
+QQ_CLIENT_SECRET = 'mU4ScbLwIPIxSiqs'
+QQ_REDIRECT_URI = 'http://www.mst.site:8000/oauth_callback'

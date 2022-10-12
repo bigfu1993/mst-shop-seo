@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mst/mst/apps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mst/mst" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Env" />
     </content>
