@@ -13,9 +13,47 @@ from django.conf import settings
 from mst.utils.response_code import RETCODE
 from mst.utils.views import LoginRequiredJSONMixin
 from users.utils import generate_verify_email_url, check_verify_email_token
-from users.models import User
+from users.models import User,Address
 
 logger = logging.getLogger('django')
+
+class AddressView(LoginRequiredMixin, View):
+    """用户收货地址"""
+
+    def get(self, request):
+        """查询并展示用户地址信息"""
+
+        # 获取当前登录用户对象
+        login_user = request.user
+        # 使用当前登录用户和is_deleted=False作为条件查询地址数据
+        addresses = Address.objects.filter(user=login_user, is_deleted=False)
+        #
+        # # 将用户地址模型列表转字典列表:因为JsonResponse和Vue.js不认识模型类型，只有Django和Jinja2模板引擎认识
+        # address_list= []
+        # for address in addresses:
+        #     address_dict = {
+        #         "id": address.id,
+        #         "title": address.title,
+        #         "receiver": address.receiver,
+        #         "province": address.province.name,
+        #         "city": address.city.name,
+        #         "district": address.district.name,
+        #         "place": address.place,
+        #         "mobile": address.mobile,
+        #         "tel": address.tel,
+        #         "email": address.email
+        #     }
+        #     address_list.append(address_dict)
+        #
+        # # 构造上下文
+        # context = {
+        #     'default_address_id': login_user.default_address_id,
+        #     'addresses': address_list
+        # }
+
+        # return render(request, 'user_center_site.html', context)
+        return render(request, 'user_center_site.html')
+
 class UsernameCountView(View):
     """判断用户名是否重复注册"""
 

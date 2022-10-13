@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^', include(('contents.urls','contents'), namespace='contents')), # contents
     url(r'^', include(('verifications.urls','verifications'), namespace='verifications')), # 图形验证码
     url(r'^', include(('oauth.urls','oauth'), namespace='oauth')), # qq登录
+    url(r'^', include(('areas.urls','areas'), namespace='areas')), # 收货地址
 ]
