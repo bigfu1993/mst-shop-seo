@@ -7,7 +7,7 @@ from django.contrib.auth import login
 from django_redis import get_redis_connection
 import logging, re
 
-from utils.response_code import RETCODE
+from mst.utils.response_code import RETCODE
 from oauth.models import OAuthQQUser
 from users.models import User
 from oauth.utils import generate_access_token, check_access_token

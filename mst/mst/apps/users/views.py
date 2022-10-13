@@ -5,11 +5,17 @@ from django.db import DatabaseError
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
-import re
+import re,json,logging
+from django.core.mail import send_mail
+from django.conf import settings
+
 
 from mst.utils.response_code import RETCODE
+from mst.utils.views import LoginRequiredJSONMixin
+from users.utils import generate_verify_email_url, check_verify_email_token
 from users.models import User
 
+logger = logging.getLogger('django')
 class UsernameCountView(View):
     """判断用户名是否重复注册"""
 
@@ -51,6 +57,7 @@ class RegisterView(View):
         password = request.POST.get('password')
         password2 = request.POST.get('password2')
         mobile = request.POST.get('mobile')
+        sms_code_client = request.POST.get('sms_code')
         allow = request.POST.get('allow')
 
         # 校验参数：前后端的校验需要分开，避免恶意用户越过前端逻辑发请求，要保证后端的安全，前后端的校验逻辑相同
@@ -184,16 +191,88 @@ class UserInfoView(LoginRequiredMixin, View):
 
     def get(self,request):
         """提供用户中心页面"""
-        if request.user.is_authenticated:
-            return render(request, 'user_center_info.html')
-        else:
-            return redirect(reverse('users:login'))
+        # if request.user.is_authenticated:
+        #     return render(request, 'user_center_info.html')
+        # else:
+        #     return redirect(reverse('users:login'))
         # return render(request, 'user_center_info.html')
         # 如果LoginRequiredMixin判断出用户已登录，那么request.user就是登陆用户对象
-        # context = {
-        #     'username': request.user.username,
-        #     'mobile': request.user.mobile,
-        #     'email': request.user.email,
-        #     'email_active': request.user.email_active
-        # }
-        # return render(request, 'user_center_info.html', context)
+        print(request.user)
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
+        return render(request, 'user_center_info.html', context)
+
+class VerifyEmailView(View):
+    """验证邮箱"""
+    def get(self,request):
+        # 接收参数
+        token = request.GET.get('token')
+
+        # 校验参数
+        if not token:
+            return http.HttpResponseForbidden('缺少token')
+
+        # 从token中提取用户信息user_id ==> user
+        user = check_verify_email_token(token)
+        if not user:
+            return http.HttpResponseBadRequest('无效的token')
+
+        # 将用户的email_active字段设置为True
+        try:
+            user.email_active = True
+            user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.HttpResponseServerError('激活邮箱失败')
+
+        # 响应结果：重定向到用户中心
+        return redirect(reverse('users:info'))
+class EmailView(LoginRequiredJSONMixin,View):
+    """添加邮箱"""
+
+    def put(self, request):
+        """实现添加邮箱逻辑"""
+        # 接收参数
+        json_dict = json.loads(request.body.decode())
+        email = json_dict.get('email')
+
+        # 校验参数
+        if not email:
+            return http.HttpResponseForbidden('缺少email参数')
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.HttpResponseForbidden('参数email有误')
+
+        # 赋值email字段
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '添加邮箱失败'})
+
+        # 发送邮箱验证邮件
+        verify_url = generate_verify_email_url(request.user)
+        # send_mail('标题', '普通邮件正文', '发件人', '收件人列表', '富文本邮件正文(html)')
+
+        subject = "MST商城邮箱验证"
+        html_message = '<p>尊敬的用户您好！</p>' \
+                       '<p>感谢您使用美多商城。</p>' \
+                       '<p>您的邮箱为：%s 。请点击此链接激活您的邮箱：</p>' \
+                       '<p><a href="%s">%s<a></p>' % (email, verify_url, verify_url)
+        # send_mail(subject, '', settings.EMAIL_FROM, [email], html_message=html_message)
+        self.send(email,verify_url)
+        # send_verify_email.delay(email, verify_url) # 一定要记得调用delay
+
+        # 响应添加邮箱结果
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '添加邮箱成功'})
+    def send(self,email,verify_url):
+        subject = "MST商城邮箱验证"
+        html_message = '<p>尊敬的用户您好！</p>' \
+                       '<p>感谢您使用MST商城。</p>' \
+                       '<p>您的邮箱为：%s 。请点击此链接激活您的邮箱：</p>' \
+                       '<p><a href="%s">%s<a></p>' % (email, verify_url, verify_url)
+        send_mail(subject, '', settings.EMAIL_FROM, [email], html_message=html_message)

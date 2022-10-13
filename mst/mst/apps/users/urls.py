@@ -1,6 +1,7 @@
 
 from django.conf.urls import url,include
-from .views import RegisterView,UsernameCountView,LoginView,LogoutView,UserInfoView,MobileCountView
+from .views import RegisterView,UsernameCountView,LoginView,LogoutView,UserInfoView,MobileCountView,EmailView
+from . import views
 # from . import views
 urlpatterns = [
     url(r'^register/$', RegisterView.as_view(), name='register'),# 注册
@@ -9,4 +10,6 @@ urlpatterns = [
     url(r'^login/$', LoginView.as_view(), name='login'),    # 用户登录
     url(r'^logout/$', LogoutView.as_view(), name='logout'), # 用户退出登录
     url(r'^info/$', UserInfoView.as_view(), name='info'), # 用户中心
+    url(r'^emails/$', EmailView.as_view()), # 添加邮箱
+    url(r'^emails/verification/$', views.VerifyEmailView.as_view()),    # 验证邮箱
 ]
