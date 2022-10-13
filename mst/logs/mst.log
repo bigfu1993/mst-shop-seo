@@ -3185,3 +3185,10 @@ INFO 2022-10-13 17:35:02,633 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\u
 INFO 2022-10-13 17:35:04,009 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-13 17:35:47,467 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-13 17:35:48,667 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-13 17:36:07,818 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY2NTY1MzIxNSwiZXhwIjoxNjY1NzM5NjE1fQ.eyJ1c2VyX2lkIjo4MSwiZW1haWwiOiJiaWdmdTE5OTNAMTYzLmNvbSJ9.BOcpNnsQNDuKMyCNTth50TDLt2HIwoIEAZDQq-NwW6HqnvGfmK7-CN7JYRkE53zYeQMrZqVUBzIh9JZVWBT75A HTTP/1.1" 302 0
+INFO 2022-10-13 17:36:07,876 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-13 17:36:07,958 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-13 17:36:22,087 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-13 17:36:22,154 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-13 17:36:22,974 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-13 17:36:23,030 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
