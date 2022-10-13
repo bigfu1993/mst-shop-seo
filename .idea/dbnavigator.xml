@@ -33,7 +33,9 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" object-ref="schemas/mst/tables/tb_users" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="63720888-fd73-4d94-815b-ac1be87d05a9" />

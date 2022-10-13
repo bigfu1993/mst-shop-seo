@@ -3237,3 +3237,37 @@ INFO 2022-10-13 18:10:05,933 basehttp 154 "GET /static/js/user_center_site.js HT
 WARNING 2022-10-13 18:10:05,944 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
 INFO 2022-10-13 18:13:54,101 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-13 18:13:56,921 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-13 18:15:25,384 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7994
+WARNING 2022-10-13 18:15:25,462 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-13 18:18:01,001 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7994
+WARNING 2022-10-13 18:18:01,071 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-13 18:18:24,090 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-13 18:18:25,258 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-13 18:18:34,222 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-13 18:18:35,397 autoreload 578 Watching for file changes with StatReloader
+ERROR 2022-10-13 18:18:48,113 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\mst-shop-seo\mst\mst\apps\users\views.py", line 50, in get
+    'default_address_id': login_user.default_address_id,
+  File "D:\mst-shop-seo\venv\lib\site-packages\django\utils\functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address_id'
+ERROR 2022-10-13 18:18:48,122 basehttp 154 "GET /addresses/ HTTP/1.1" 500 108197
+INFO 2022-10-13 18:19:34,841 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\models.py changed, reloading.
+INFO 2022-10-13 18:19:36,045 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-13 18:20:06,675 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-13 18:20:06,796 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-13 18:21:11,700 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-13 18:21:12,881 autoreload 578 Watching for file changes with StatReloader
