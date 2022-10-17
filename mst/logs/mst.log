@@ -3271,3 +3271,4 @@ INFO 2022-10-13 18:20:06,675 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
 WARNING 2022-10-13 18:20:06,796 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
 INFO 2022-10-13 18:21:11,700 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-13 18:21:12,881 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-17 16:36:25,033 autoreload 578 Watching for file changes with StatReloader
