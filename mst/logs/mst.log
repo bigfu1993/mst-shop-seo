@@ -3394,3 +3394,35 @@ INFO 2022-10-18 10:56:37,330 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 
 INFO 2022-10-18 10:56:38,388 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
 INFO 2022-10-18 10:57:33,732 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-18 10:57:35,104 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:59:32,094 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2022-10-18 10:59:32,800 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2022-10-18 10:59:47,961 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 296
+INFO 2022-10-18 11:00:00,913 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 296
+INFO 2022-10-18 11:00:32,797 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8145
+INFO 2022-10-18 11:00:32,893 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2022-10-18 11:00:32,934 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 11:07:28,706 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-18 11:07:30,104 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 11:08:54,963 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 11:09:07,249 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2022-10-18 11:09:08,052 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2022-10-18 11:10:05,157 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8154
+INFO 2022-10-18 11:10:05,263 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2022-10-18 11:10:05,285 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 11:10:10,480 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2022-10-18 11:10:11,293 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2022-10-18 11:10:14,364 basehttp 154 "PUT /addresses/1/ HTTP/1.1" 200 296
+INFO 2022-10-18 11:10:16,816 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8154
+WARNING 2022-10-18 11:10:16,893 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 11:10:16,920 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2022-10-18 11:10:24,668 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2022-10-18 11:10:25,406 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2022-10-18 11:10:35,390 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 285
+WARNING 2022-10-18 11:10:39,575 log 228 Not Found: /addresses/3/default/
+WARNING 2022-10-18 11:10:39,576 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 404 4767
+INFO 2022-10-18 11:10:43,560 basehttp 154 "DELETE /addresses/3/ HTTP/1.1" 200 63
+INFO 2022-10-18 11:10:45,538 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8154
+INFO 2022-10-18 11:10:45,631 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2022-10-18 11:10:45,684 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 11:30:31,167 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-18 11:30:32,437 autoreload 578 Watching for file changes with StatReloader
