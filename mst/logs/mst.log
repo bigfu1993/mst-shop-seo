@@ -3272,3 +3272,125 @@ WARNING 2022-10-13 18:20:06,796 basehttp 154 "GET /static/js/axios.min.map HTTP/
 INFO 2022-10-13 18:21:11,700 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
 INFO 2022-10-13 18:21:12,881 autoreload 578 Watching for file changes with StatReloader
 INFO 2022-10-17 16:36:25,033 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-17 16:36:31,137 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-17 16:36:31,258 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-17 16:36:31,273 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-17 16:36:31,278 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-17 16:36:31,294 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-17 16:36:31,294 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-17 16:36:31,308 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-17 16:36:31,311 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-10-17 16:36:31,327 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-17 16:36:31,328 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-17 16:36:31,342 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-17 16:36:31,344 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-17 16:36:31,352 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2022-10-17 16:36:31,358 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-17 16:36:31,781 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-17 16:36:31,793 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-17 16:36:31,795 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-17 16:36:31,799 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-17 16:36:31,802 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-17 16:36:31,809 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-17 16:36:31,816 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-17 16:36:31,821 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2022-10-17 16:36:31,826 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-17 16:36:31,830 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-17 16:36:31,841 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-17 16:36:31,848 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2022-10-17 16:36:31,910 log 228 Not Found: /favicon.ico
+WARNING 2022-10-17 16:36:31,911 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4387
+INFO 2022-10-17 16:36:36,239 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+INFO 2022-10-17 16:36:36,270 basehttp 154 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2022-10-17 16:36:36,280 basehttp 154 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2022-10-17 16:36:36,299 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2891
+INFO 2022-10-17 16:36:36,303 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2022-10-17 16:36:36,322 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2022-10-17 16:36:46,373 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2022-10-17 16:36:46,392 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3033
+INFO 2022-10-17 16:36:46,416 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1579
+INFO 2022-10-17 16:36:46,433 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2022-10-17 16:36:46,446 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2022-10-17 16:36:52,681 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 200 3148
+WARNING 2022-10-17 16:36:56,219 log 228 Not Found: /login/register.html
+WARNING 2022-10-17 16:36:56,219 basehttp 154 "GET /login/register.html HTTP/1.1" 404 4411
+INFO 2022-10-17 16:37:00,332 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2022-10-17 16:37:00,350 basehttp 154 "GET /register/ HTTP/1.1" 200 3869
+INFO 2022-10-17 16:37:00,381 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7162
+INFO 2022-10-17 16:37:00,918 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2022-10-17 16:37:00,926 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2022-10-17 16:37:01,082 basehttp 154 "GET /image_codes/9c452655-4b14-43c1-a9c4-de1137a5edde/ HTTP/1.1" 200 2925
+INFO 2022-10-17 16:37:04,033 basehttp 154 "GET /usernames/bigfu/count/ HTTP/1.1" 200 41
+INFO 2022-10-17 16:37:04,286 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2022-10-17 16:37:04,293 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-17 16:37:06,172 basehttp 154 "GET /info/ HTTP/1.1" 200 7605
+INFO 2022-10-17 16:37:14,229 basehttp 154 "PUT /emails/ HTTP/1.1" 200 63
+INFO 2022-10-17 16:38:01,823 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY2NTk5NTgzMywiZXhwIjoxNjY2MDgyMjMzfQ.eyJ1c2VyX2lkIjo4MiwiZW1haWwiOiJiaWdmdTE5OTNAMTYzLmNvbSJ9.yDMfMJ0Sp1yYdHChvHi4BZxBPqgrGkPyJvqT4-yGWxGepzvTIjr0H4Ou1_QxBuLKCLS7HGtxTOU90-WFqPHrWw HTTP/1.1" 302 0
+INFO 2022-10-17 16:38:01,859 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+INFO 2022-10-17 16:38:06,272 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+INFO 2022-10-17 18:14:12,270 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-17 18:14:16,067 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 09:47:45,114 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 09:48:07,694 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 09:48:11,313 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-18 09:48:11,426 basehttp 154 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2022-10-18 09:48:31,536 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-18 09:48:32,918 log 228 Not Found: /info/user_center_site.html
+WARNING 2022-10-18 09:48:32,918 basehttp 154 "GET /info/user_center_site.html HTTP/1.1" 404 4432
+INFO 2022-10-18 09:50:04,380 basehttp 154 "GET /addresses HTTP/1.1" 301 0
+INFO 2022-10-18 09:50:04,437 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+INFO 2022-10-18 09:50:04,490 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2022-10-18 09:50:38,212 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+INFO 2022-10-18 09:50:39,156 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+INFO 2022-10-18 09:51:04,948 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+INFO 2022-10-18 10:17:14,169 autoreload 203 D:\mst-shop-seo\mst\mst\apps\areas\views.py changed, reloading.
+INFO 2022-10-18 10:17:15,843 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:17:32,646 autoreload 203 D:\mst-shop-seo\mst\mst\apps\areas\views.py changed, reloading.
+INFO 2022-10-18 10:17:34,415 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:19:50,152 autoreload 203 D:\mst-shop-seo\mst\mst\apps\areas\views.py changed, reloading.
+INFO 2022-10-18 10:19:51,402 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:20:12,708 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+INFO 2022-10-18 10:20:14,139 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:21:13,254 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:25:38,471 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:25:38,571 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:28:49,614 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:28:49,691 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-18 10:28:51,689 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:28:54,085 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-10-18 10:28:54,104 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-18 10:28:54,194 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-18 10:28:57,021 log 228 Not Found: /login.html
+WARNING 2022-10-18 10:28:57,021 basehttp 154 "GET /login.html HTTP/1.1" 404 4384
+INFO 2022-10-18 10:29:00,189 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2022-10-18 10:29:00,219 basehttp 154 "GET /login/ HTTP/1.1" 200 3033
+INFO 2022-10-18 10:29:00,252 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+WARNING 2022-10-18 10:29:00,276 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:29:04,209 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-10-18 10:29:04,220 basehttp 154 "GET / HTTP/1.1" 200 39097
+WARNING 2022-10-18 10:29:04,327 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:29:05,726 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-18 10:29:05,801 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-18 10:29:07,603 log 228 Not Found: /info/user_center_site.html
+WARNING 2022-10-18 10:29:07,604 basehttp 154 "GET /info/user_center_site.html HTTP/1.1" 404 4432
+INFO 2022-10-18 10:29:22,626 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:29:22,763 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:47:00,625 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:47:00,702 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:47:13,168 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-18 10:47:13,244 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2022-10-18 10:47:19,231 log 228 Not Found: /info/user_center_site.html
+WARNING 2022-10-18 10:47:19,232 basehttp 154 "GET /info/user_center_site.html HTTP/1.1" 404 4432
+INFO 2022-10-18 10:47:24,328 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7961
+WARNING 2022-10-18 10:47:24,400 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:51:10,523 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\urls.py changed, reloading.
+INFO 2022-10-18 10:51:11,853 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:56:15,937 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-18 10:56:19,896 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7976
+WARNING 2022-10-18 10:56:19,989 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2022-10-18 10:56:20,056 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2022-10-18 10:56:20,064 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2022-10-18 10:56:37,330 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2022-10-18 10:56:38,388 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2022-10-18 10:57:33,732 autoreload 203 D:\mst-shop-seo\mst\mst\apps\users\views.py changed, reloading.
+INFO 2022-10-18 10:57:35,104 autoreload 578 Watching for file changes with StatReloader
