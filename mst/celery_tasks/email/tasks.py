@@ -26,7 +26,6 @@ def send_verify_email(self, to_email, verify_url):
 
 
 
-@celery_app.task(name='send_verify_email')
 # bind：保证task对象会作为第一个参数自动传入
 # @celery_app.task(name='send_verify_email')
 # bind：保证task对象会作为第一个参数自动传入
