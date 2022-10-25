@@ -23,3 +23,8 @@ def send_verify_email(self, to_email, verify_url):
     except Exception as e:
         # 触发错误重试：最多重新3次
         raise self.retry(exc=e, max_retries=3)
+
+
+
+# @celery_app.task(name='send_verify_email')
+# bind：保证task对象会作为第一个参数自动传入
