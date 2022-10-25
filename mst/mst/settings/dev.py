@@ -98,13 +98,24 @@ WSGI_APPLICATION = 'mst.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # 数据库引擎
-        'HOST': '127.0.0.1', # 数据库主机
+        'HOST': '47.96.157.191', # 数据库主机
         'PORT': 3306, # 数据库端口
-        'USER': 'bigfu', # 数据库用户名
+        'USER': 'root', # 数据库用户名
         'PASSWORD': '000000', # 数据库用户密码
         'NAME': 'mst' # 数据库名字
     },
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql', # 数据库引擎
+#         'HOST': '127.0.0.1', # 数据库主机
+#         'PORT': 3306, # 数据库端口
+#         'USER': 'bigfu', # 数据库用户名
+#         'PASSWORD': '000000', # 数据库用户密码
+#         'NAME': 'mst' # 数据库名字
+#     },
+# }
 
 CACHES = {
     "default": { # 默认
