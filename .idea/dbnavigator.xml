@@ -32,7 +32,7 @@
       <console name="mst" type="STANDARD" schema="" session="Main"><![CDATA[show databases;]]></console>
     </connection>
     <connection id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d">
-      <console name="mst@fm404" type="STANDARD" schema="" session="Main" />
+      <console name="mst@fm404" type="STANDARD" schema="mst" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -43,6 +43,7 @@
     <connection id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_areas" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_users" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mysql.user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tests" active-filter-id="EMPTY_FILTER" />
@@ -51,6 +52,7 @@
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_areas" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_users_groups" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_spu" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="63720888-fd73-4d94-815b-ac1be87d05a9" dataset="mst.tb_oauth_qq" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
