@@ -3510,3 +3510,59 @@ INFO 2022-10-25 13:59:17,130 basehttp 154 "GET /static/images/goods/goods007.jpg
 INFO 2022-10-25 13:59:17,141 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2891
 INFO 2022-10-25 13:59:17,146 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
 INFO 2022-10-25 13:59:17,172 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2022-10-26 11:17:49,802 autoreload 578 Watching for file changes with StatReloader
+INFO 2022-10-26 11:17:56,157 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-26 11:17:56,219 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2022-10-26 11:17:56,224 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2022-10-26 11:17:56,229 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 41739
+INFO 2022-10-26 11:17:56,245 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2022-10-26 11:17:56,246 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2022-10-26 11:17:56,259 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2022-10-26 11:17:56,273 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1914
+INFO 2022-10-26 11:17:56,277 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2022-10-26 11:17:56,278 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2022-10-26 11:17:56,283 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2022-10-26 11:17:56,291 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2022-10-26 11:17:56,292 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2022-10-26 11:17:56,292 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2022-10-26 11:17:56,302 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2022-10-26 11:17:56,310 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2022-10-26 11:17:56,317 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2022-10-26 11:17:56,320 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2022-10-26 11:17:56,327 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2022-10-26 11:17:56,330 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2022-10-26 11:17:56,331 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2022-10-26 11:17:56,338 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2022-10-26 11:17:56,344 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2022-10-26 11:17:56,374 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2022-10-26 11:17:56,374 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2022-10-26 11:17:56,374 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+WARNING 2022-10-26 11:17:56,415 log 228 Not Found: /favicon.ico
+WARNING 2022-10-26 11:17:56,416 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5126
+INFO 2022-10-26 11:18:01,772 basehttp 154 "GET /info/ HTTP/1.1" 200 7605
+INFO 2022-10-26 11:18:01,802 basehttp 154 "GET /static/images/goods/goods006.jpg HTTP/1.1" 200 6836
+INFO 2022-10-26 11:18:01,822 basehttp 154 "GET /static/images/goods/goods007.jpg HTTP/1.1" 200 3936
+INFO 2022-10-26 11:18:01,833 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2891
+INFO 2022-10-26 11:18:01,838 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2022-10-26 11:18:01,857 basehttp 154 "GET /static/images/shop_cart.png HTTP/1.1" 200 1317
+INFO 2022-10-26 11:18:08,460 basehttp 154 "PUT /emails/ HTTP/1.1" 200 63
+INFO 2022-10-26 11:18:46,428 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY2Njc1NDI4NywiZXhwIjoxNjY2ODQwNjg3fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImJpZ2Z1MTk5M0AxNjMuY29tIn0.o9EpUBopc6K5yq-juHbjjG_O4440mVQ6jpM7dM_mm_-5Tbr7v9vOo77-sLtpXnGVCd40kRDurXlvDDJt6QXK6g HTTP/1.1" 302 0
+INFO 2022-10-26 11:18:46,584 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+INFO 2022-10-26 11:18:48,623 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+INFO 2022-10-26 11:18:50,121 basehttp 154 "GET /info/ HTTP/1.1" 200 7621
+WARNING 2022-10-26 11:18:55,375 log 228 Not Found: /info/user_center_site.html
+WARNING 2022-10-26 11:18:55,376 basehttp 154 "GET /info/user_center_site.html HTTP/1.1" 404 5171
+INFO 2022-10-26 11:19:25,587 basehttp 154 "GET /addresses HTTP/1.1" 301 0
+INFO 2022-10-26 11:19:25,754 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7970
+INFO 2022-10-26 11:19:25,811 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2022-10-26 11:19:25,957 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2022-10-26 11:19:35,593 basehttp 154 "GET /areas/?area_id=320000 HTTP/1.1" 200 701
+INFO 2022-10-26 11:19:37,048 basehttp 154 "GET /areas/?area_id=320100 HTTP/1.1" 200 609
+INFO 2022-10-26 11:19:48,041 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 288
+INFO 2022-10-26 11:19:48,077 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2022-10-26 11:19:53,064 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2022-10-26 11:19:54,755 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8152
+INFO 2022-10-26 11:19:54,942 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2022-10-26 11:20:02,594 basehttp 154 "GET / HTTP/1.1" 200 39097
+INFO 2022-10-26 11:26:03,690 autoreload 203 D:\mst-shop-seo\mst\mst\apps\contents\views.py changed, reloading.
+INFO 2022-10-26 11:26:04,937 autoreload 578 Watching for file changes with StatReloader
