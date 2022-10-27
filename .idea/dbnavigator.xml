@@ -37,8 +37,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" object-ref="schemas/mst/tables/tb_goods_channel" />
-      <object connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" object-ref="schemas/mst/tables/tb_goods_category" />
+      <object connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" object-ref="schemas/mst/tables/tb_sku" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
@@ -48,6 +47,7 @@
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_goods_category" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_goods_channel" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_sku" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_channel_group" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_areas" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="f5d0555d-0914-4c4e-8d2c-f62e05132a6d" dataset="mst.tb_users" active-filter-id="EMPTY_FILTER" />
