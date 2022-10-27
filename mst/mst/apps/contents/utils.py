@@ -11,6 +11,7 @@ def get_categories():
     channels = GoodsChannel.objects.order_by('group_id', 'sequence')
     # 遍历所有频道
     for channel in channels:
+        print(channel.group_id,'0000')
         # 获取当前频道所在的组
         group_id = channel.group_id
         # 构造基本的数据框架:只有11个组
